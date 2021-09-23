@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Seguro Auto",
+    "description": "Este é um projeto para redução de sinistros do seguro auto.",
+    "privacy": "unlisted",
+    "icon": "./src/img/sa-icon.png",
+    "version": "0.1.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "slug": "SeguroAuto",
+    "sdkVersion": "25.0.0",
+    "splash": {
+      "image": "./src/img/splash.png",
+      "ios": {
+        "bundleIdentifier": "com.mjv.seguroauto"
+      },
+      "android": {
+        "package": "com.mjv.seguroauto",
+        "config": {
+          "googleMaps": {
+            "apiKey": "AIzaSyD2WaDWRtzved9_rUI0v_uM62LJqN5PSTU"
+          }
+        }
+      }
+    }
+  }
+}
